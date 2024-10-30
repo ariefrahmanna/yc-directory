@@ -10,6 +10,10 @@
     "format": "prettier -w ."
   },
   "packageManager": "npm@10.9.0",
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  },
   "dependencies": {
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
